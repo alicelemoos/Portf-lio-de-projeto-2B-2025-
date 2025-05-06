@@ -5,9 +5,17 @@
 }
 body {
 font-family: 'Chakra Petch', sans-serif;
+color: var(--cor-principal);
+margin: 2rem;
+}
+h1, h2, h3 {
 color: var(--cor-secundaria);
+font-weight: 700;
+}
+a { 
+color: var(--cor-destaque);
 text-decoration: none;
 }
-a:hover { 
+a:hover {
 color: var(--cor-principal);
 }
